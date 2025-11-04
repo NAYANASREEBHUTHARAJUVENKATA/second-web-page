@@ -1,0 +1,111 @@
+*{
+    font-family: monospace;
+    text-align: center;
+    padding-top: 2px;
+}
+
+main{
+    padding: 20px;
+}
+body{
+    margin: 0;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+header{
+    height: 100vh;
+    background: url(men.jpg);
+}
+h1{
+    color: darkmagenta;
+    font-size: 50px;
+}
+header h1{
+    color: rgb(126, 8, 8);
+    margin: 0;
+}
+.button{
+    background-color: darksalmon;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    color: black;
+    background-color: deeppink;
+}
+img{
+    height: 200px;
+}
+
+section{
+    height: 100vh;
+    border: 3px solid rgb(237, 93, 146) ;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+    text-align: center;
+}
+.login{
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(27, 26, 25);
+    background-color: darksalmon;
+}
+
+.login:hover{
+  color: rgb(170, 184, 184);
+  background-color: crimson;
+}
+input{
+    border-radius:5px;
+    bottom: 2px solid rgb(228, 86, 110);
+    height: 26px;
+}
+footer{
+    height: 124px;
+    background-color: black;
+    color: lightgray;
+}
+.fixedbutton{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    border: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: rgb(28, 27, 27);
+    background-color: rgb(220, 70, 145);
+}
+.fixedbutton:hover{
+    color: aliceblue;
+    background-color: blueviolet;
+}
+table,th,td{
+    border: 1px solid black;
+    
+}
+h1{
+    text-align: center;
+}
+table{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+ol{
+    list-style-position: inside;
+}
